@@ -1,0 +1,157 @@
+\documentclass[oneside, letterpaper]{memoir}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{multicol}
+
+\geometry{
+    letterpaper,
+    textwidth=16cm,
+    hoffset=1cm,
+}
+
+% Quita el número de las páginas
+\pagenumbering{gobble}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{85pt}
+
+\chead{
+    % Hacer que logo este pegado arriba
+    \vspace{-4em}
+    \includegraphics[scale=0.8]{../img/puc.png}\\
+    % Dar espacio entre logo y letras
+    \vspace{0.3em}
+    % Centrar letras
+    \centering
+    {\Large
+    \textsc{Pontificia Universidad Católica de Chile}\\
+    }
+    {\Large
+        \textsc{Escuela de Ingeniería}\\
+    }
+    {\LARGE
+        \vspace{-0.2em}
+        \textsc{Centro de Alumnos}\\
+    }
+}
+
+{\setlength{\parindent}{0cm}
+
+\setlength{\parskip}{1em}
+\setlength\columnsep{5em}
+\renewcommand{\baselinestretch}{1.2}
+
+\newcommand{\doublesignature}[1]{%
+    \vspace{1em}
+    \parbox{\textwidth}{
+        \centering 
+        {\large
+            \textsc{Como #1,}
+        }
+        \vspace{1em}\\
+        \parbox{7cm}{
+            \centering
+            \textsc{Entrega}\\
+            \vspace{1em}
+            \rule{7cm}{0.4pt}
+            \textsc{\tiny Nombre}\\
+            \vspace{2em}
+            \rule{7cm}{0.4pt}
+            \textsc{\tiny Firma}\\
+        }
+        \hfill
+        \parbox{7cm}{
+            \centering
+            \textsc{Asume}\\
+            \vspace{1em}
+            \rule{7cm}{0.4pt}
+            \textsc{\tiny Nombre}\\
+            \vspace{2em}
+            \rule{7cm}{0.4pt}
+            \textsc{\tiny Firma}\\
+        }
+    }
+}
+
+
+\begin{document}
+    \sloppy
+
+    {\large
+        \textsc{Hoy \hrulefill, en la Escuela de Ingeniería de la Pontificia\\ Universidad Católica de Chile, campus San Joaquín, comuna de Macul, Santiago, las personas abajo firmantes damos testimonio solemne del traspaso de mando del Centro de Alumnos de Ingeniería.\\ \\
+        Las personas que asumimos, nos comprometemos a velar por el bien de todos los alumnos de la Escuela de Ingeniería mientras dure nuestro mando. Anteponiendo siempre los intereses de la Escuela por sobre los nuestros.
+        }
+    }\\ \\ \\
+    \doublesignature{Presidente}\\
+
+    % \vspace{1em}
+    \doublesignature{Consejero Académico de Pregrado}\\
+
+    % \vspace{1em}
+    \doublesignature{Consejero Académico de Postgrado}\\
+
+    \vspace{1em}
+    \newpage
+    \doublesignature{Primer Vicepresidente}\\
+
+    % \vspace{1em}
+    \doublesignature{Segundo Vicepresidente}
+
+    \doublesignature{Secretario General}\\
+
+    % \vspace{1em}
+    \doublesignature{Jefe de Finanzas}\\
+    
+    \newpage
+    \doublesignature{Coordinador de Áreas}\\
+
+    % \vspace{1em}
+    \doublesignature{Jefe de Docencia}\\
+
+    % \vspace{1em}
+    \doublesignature{Jefe de Investigación}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}
+
+    \newpage
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    \vspace{1em}
+    \newpage
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}
+
+    \newpage
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}\\
+
+    % \vspace{1em}
+    \doublesignature{\rule{6cm}{0.4pt}}
+
+\end{document}
