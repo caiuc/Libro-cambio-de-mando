@@ -1,0 +1,87 @@
+\documentclass[oneside, letterpaper]{memoir}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{trajan}
+\usepackage[export]{adjustbox}
+\usepackage[usestackEOL]{stackengine}
+
+\geometry{
+    letterpaper,
+    textwidth=16cm,
+    hoffset=1cm,
+}
+
+% Quita el número de las páginas
+\pagenumbering{gobble}
+
+\begin{document}
+
+    \begin{center}
+
+        % Logo de la universidad centrado y desplazado hacia arriba
+        \begin{figure}
+            \vspace{-2em}
+            \centering
+            \includegraphics[scale=1.2]{../img/puc.png}\\
+        \end{figure}
+
+
+        {\huge
+            \textsc{Pontificia Universidad Católica de Chile}\\
+        }{\huge
+            \textsc{Escuela de Ingeniería}\\
+        }{\Huge
+            \textsc{Centro de Alumnos}\\
+        }
+
+        \vspace{2em}
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[scale=1]{../img/cai.png}
+        \end{figure}
+
+        \vspace{2em}
+
+        {\Huge
+            \textsc{Libro de Actas de\\
+            \vspace{0.2em}
+            Cambio de Mando}
+        }
+        
+
+    \end{center}
+
+    % Página con frase
+    \newpage
+    \begin{vplace}[0.7]
+        \centering
+        \textsc{
+            {\Huge 
+                Quede en este libro testimonio de\\
+                \vspace{0.2em}
+                aquellos que eligieron el camino de\\
+                \vspace{0.4em}
+                servicio hacia esta Escuela
+            }
+        }
+    \end{vplace}
+
+    % Página final
+    \newpage
+
+    \vspace*{\fill}
+    \vspace{10em}
+    {\raggedleft\vfill\scshape\Longstack[l]{
+        Libro y estilo confeccionado\\
+        por Rodrigo Hanuch,\\
+        Secretario General\\
+        Centro de Alumnos de Ingeniería,\\
+        20 de noviembre de 2019.\\ \\
+        Seamos Puntos de Encuentro
+        }\par
+    }
+    \vspace{-7em}
+\end{document}
