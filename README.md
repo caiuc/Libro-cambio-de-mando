@@ -3,7 +3,7 @@ Template de formato del libro de cambio de mando y datos de dónde se mandó a h
 
 ## Empastado y confección de exterior
 Miguel Cabello
-+56 9 6662 0120‬
++56 9 8682 2977
 San Francisco 383 (3er piso), Santiago, Región Metropolitana (https://goo.gl/maps/PgFUpX14xkoN9esL9).
 Forro de cuero negro.
 
